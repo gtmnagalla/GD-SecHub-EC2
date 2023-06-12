@@ -1,0 +1,5 @@
+            #!/bin/bash
+            for j in {1..10} 
+            do
+              sudo nmap -sT ${IP}
+            done
